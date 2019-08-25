@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.changed.supun.flagquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/globe_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/globe_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.changed.supun.flagquiz.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.changed.supun.flagquiz.GuessTheCountry" />
+        <activity android:name="com.changed.supun.flagquiz.GuessHints" />
+        <activity android:name="com.changed.supun.flagquiz.GuessTheFlag" />
+        <activity android:name="com.changed.supun.flagquiz.AdvancedLevel" />
+    </application>
+
+</manifest>
